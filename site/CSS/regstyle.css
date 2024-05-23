@@ -1,0 +1,53 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: c2b8b8;
+	height: 100vh;
+	font-family: Montserrat, sans-serif;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+
+a{
+	color: darkblue;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+p{
+	margin: 10px 0;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+}
+
+input{
+	margin: 10px 0;
+	padding: 10px;
+	border: unset;
+	border-bottom: 2px solid #e3e3e3;
+	outline: 1px solid #000; /* Чёрная рамка */;
+}
+
+button{
+	padding: 10px;
+	background-color: #e3e3e3;
+	border: unset;
+	cursor: pointer;
+}
+
+.msg {
+	border: 1px solid black;
+	border-radius: 3px;
+	width: 70px;
+	height: 15px;
+	padding: 5px;
+}
